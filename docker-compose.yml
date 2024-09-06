@@ -106,7 +106,9 @@ services:
 
 networks:
   elk:
+    name: elk
     driver: bridge
 
 volumes:
   elasticsearch:
+    name: elasticsearch
